@@ -1,0 +1,16 @@
+# Pastas de compilação e build
+/bin/
+/out/
+/target/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
