@@ -1,0 +1,26 @@
+package br.com.meusistema.main;
+
+import br.com.meusistema.model.Carro;
+
+public class Sistema {
+
+    public static void main(String[] args) {
+
+        System.out.println("Iniciando o Sistema...");
+
+        Carro meuCarro = new Carro();
+        meuCarro.setModelo("Fusca");
+        meuCarro.setCor("Azul");
+        ;
+        meuCarro.setVelocidade(-500);
+        meuCarro.buzinar();
+
+        Carro meuCarro2 = new Carro();
+        meuCarro2.setModelo("Chevete");
+        meuCarro2.setCor("Branco");
+
+        meuCarro2.buzinar();
+
+    }
+
+}
